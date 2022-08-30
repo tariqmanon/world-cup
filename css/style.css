@@ -236,6 +236,56 @@ nav ul li a {
     color: #ffffff;
 }
 
+
+/* Match day  */
+.Upcoming-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 20px;
+
+}
+
+.match-day {
+    box-shadow: 2px 4px 6px lightgrey;
+}
+
+.match-day {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    row-gap: 10px;
+}
+
+.match-day h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #161616;
+}
+
+.match-thumbnail {
+    display: flex;
+}
+
+.match-thumbnail h2 {
+    margin: 0px 10px;
+
+}
+
+.match-details {
+    display: flex;
+
+}
+
 /* Responsive */
 
 /* Mobile Device */
